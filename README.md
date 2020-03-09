@@ -4,8 +4,6 @@ This is the PyTorch implementation of Particle Filter Recurrent Neural Networks 
 
 Xiao Ma, Peter Karkus, David Hsu, Wee Sun Lee: [Particle Filter Recurrent Neural Networks. AAAI Conference on Artificial Intelligence (AAAI), 2020. ](https://arxiv.org/abs/1905.12885)
 
-This repo is still under construction. We will include more datasets soon.
-
 ## Network structure
 
 <img src="imgs/networks.jpg"/>
