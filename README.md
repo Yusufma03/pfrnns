@@ -24,10 +24,13 @@ python main.py -c ./configs/train.conf
 ## Cite PF-RNNs
 If you find this work useful, please consider citing us
 ```
-@article{ma2019particle,
-  title={Particle Filter Recurrent Neural Networks},
-  author={Ma, Xiao and Karkus, Peter and Hsu, David and Lee, Wee Sun},
-  journal={arXiv preprint arXiv:1905.12885},
-  year={2019}
+@inproceedings{ma2020particle,
+  author    = {Xiao Ma and
+               P{\'{e}}ter Karkus and
+               David Hsu and
+               Wee Sun Lee},
+  title     = {Particle Filter Recurrent Neural Networks},
+  booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}, 2020},
+  pages     = {5101--5108}
 }
 ```
