@@ -21,6 +21,16 @@ The training parameters are specified in configs/train.conf. To run the robot lo
 python main.py -c ./configs/train.conf
 ```
 
+## Visualize particles
+After training, you could visualize the particles by
+```
+python evaluate.py -c ./configs/eval.conf # save the latent particle tensors
+python plot_particle.py --traj_num 0 --folder_num 0 # plot particles
+```
+
+## Acknowledgement
+Thanks [Ta-Wei Yeh](https://github.com/TaWeiYeh) for inplementing the particle visualization code.
+
 ## Cite PF-RNNs
 If you find this work useful, please consider citing us
 ```
