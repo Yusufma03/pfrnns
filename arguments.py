@@ -56,6 +56,8 @@ def parse_args(args=None):
     parser.add_argument('--l1_weight', type=float, default=0.0, help='weight for l1 loss')
     parser.add_argument('--elbo_weight', type=float, default=1.0, help='weight for ELBO loss')
 
+    parser.add_argument('--logs_num', type=int, default=0, help='number of logs folder for your trained model')
+
     args = parser.parse_args()
 
     return args
