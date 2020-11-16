@@ -25,7 +25,7 @@ python main.py -c ./configs/train.conf
 After training, you could visualize the particles by
 ```
 python evaluate.py -c ./configs/eval.conf # save the latent particle tensors
-python plot_particle.py --traj_num 0 --folder_num 0 # plot particles
+python plot_particle.py --traj_num 0 --eval_num 0 # plot particles
 ```
 
 ## Acknowledgement
