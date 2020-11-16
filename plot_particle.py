@@ -192,3 +192,4 @@ if __name__ == "__main__":
 
     plot_obstacles()
     plot_robot_and_particles()
+

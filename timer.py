@@ -67,3 +67,4 @@ if __name__ == "__main__":
             t.stop()
 
     print(Timer.timers)
+
