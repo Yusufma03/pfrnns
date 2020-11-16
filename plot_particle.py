@@ -156,20 +156,20 @@ def get_config():
 
 
 def get_particle_fname():
-    return os.path.join('eval', str(folder_num), 'particle_pred')
+    return os.path.join('eval', str(eval_num), 'particle_pred')
 
 
 def get_config_fname():
-    return os.path.join('eval', str(folder_num), 'args.conf')
+    return os.path.join('eval', str(eval_num), 'args.conf')
 
 
 if __name__ == "__main__":
     parser = configargparse.ArgumentParser(default_config_files=[])
-    parser.add_argument('--traj_num', type=int, default=0, help='the selected number of trajectory')
-    parser.add_argument('--folder_num', type=int, default=0, help='the selected number of evaluate folder')
+    parser.add_argument('--traj_num', type=int, default=0, help='the number of trajectory')
+    parser.add_argument('--eval_num', type=int, default=0, help='the number of evaluate folder')
     plot_args = parser.parse_args()
     traj_num = plot_args.traj_num
-    folder_num = plot_args.folder_num
+    eval_num = plot_args.eval_num
 
     #### Set up formatting for the movie files ####
     Writer = animation.writers['ffmpeg']
@@ -192,4 +192,3 @@ if __name__ == "__main__":
 
     plot_obstacles()
     plot_robot_and_particles()
-
