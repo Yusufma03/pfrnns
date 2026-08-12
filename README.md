@@ -1,3 +1,5 @@
+
+
 # PF-RNNs
 
 This is the PyTorch implementation of Particle Filter Recurrent Neural Networks (PF-RNNs).
@@ -29,7 +31,7 @@ python plot_particle.py --traj_num 0 --eval_num 0 # plot particles
 ```
 
 ## Acknowledgement
-Thanks [Ta-Wei Yeh](https://github.com/TaWeiYeh) for inplementing the particle visualization code.
+Thanks [Ta-Wei Yeh](https://github.com/TaWeiYeh) for implementing the particle visualization code.
 
 ## Cite PF-RNNs
 If you find this work useful, please consider citing us
